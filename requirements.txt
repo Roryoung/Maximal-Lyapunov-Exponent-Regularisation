@@ -1,0 +1,14 @@
+mujoco==2.3.7
+stable-baselines3==2.1.0
+dm_control==1.0.14 
+optuna==3.3.0
+optuna-dashboard==0.12.0
+imageio==2.31.2
+pyrender==0.1.18
+torchvision==0.15.2
+tensorboard==2.14.1
+pytest==7.4.2
+pytest-cov==4.1.0
+pylint==3.0.1
+pylint-exit==1.2.0
+rliable==1.0.8

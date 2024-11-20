@@ -1,0 +1,33 @@
+common: &common
+  # environment args
+  norm_obs: False
+  norm_reward: False
+
+  # model args
+  learning_starts: 1_000
+  total_timesteps: 5_000_000
+  buffer_size: 1_000_000
+  gamma: 0.99
+  learning_rate: 0.0003
+  tau: 0.005
+  train_freq: 1
+  gradient_steps: 8
+  batch_size: 1024
+
+cartpole_balance:
+  total_timesteps: 1_000_000
+
+cartpole_swingup:
+  total_timesteps: 1_000_000
+
+point_mass_easy: 
+  total_timesteps: 1_000_000
+
+humanoid_stand:
+  learning_starts: 10_000
+
+humanoid_walk:
+  learning_starts: 10_000
+
+humanoid_run:
+  learning_starts: 10_000
